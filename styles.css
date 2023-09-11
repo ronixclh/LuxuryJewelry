@@ -1,0 +1,153 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header > img {
+  width: 200px;
+  height: 100px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+nav {
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  border-color: bisque;
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+nav ul {
+  list-style: none;
+  word-spacing: 30px;
+  margin-right: 50px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+nav a:hover {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: "Gambetta", serif;
+  letter-spacing: -3px;
+  transition: 700ms ease;
+  font-variation-settings: "wght" 311;
+  margin-bottom: 0.8rem;
+  color: white;
+  outline: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+}
+
+#firstP {
+  text-align: center;
+  padding: 10px 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+footer {
+  display: flex;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+footer div {
+  background-color: bisque;
+  flex: 1;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.product-card {
+  width: calc(33.33% - 20px); /* subtract margin */
+  margin: 20px 20px 20px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-card h3 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.product-card p {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 10px;
+  flex-grow: 1;
+}
+
+.product-card button {
+  text-align: center;
+  background-color: bisque;
+  color: #292929;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+button:hover {
+  background-color: rgb(243, 168, 76);
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+.footer-p {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  font-size: 13px;
+}
